@@ -1,0 +1,17 @@
+create File:- django-admin startproject mysite
+
+Run File :- python manage.py runserver
+
+Migrate File :- python manage.py migrate
+
+Migration File :-  python manage.py makemigrations
+
+create admin :- python manage.py createsuperuser
+
+sever:- Wsgi 
+
+Add Any Page :- python manage.py startapp (Page_name)
+step:- 
+->Setting.py ->INSTALLED_APPS = ['home'] (home->Example->Page_name)
+->urls.py -> path('', include('home.py'))
+In Page Urls.py ->urls.py -> path('', ('home.py'))
